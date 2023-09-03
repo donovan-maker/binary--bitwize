@@ -1,5 +1,6 @@
-namespace Binary {
-    export function drawBinary(column: number, decimal: number) {
+namespace binary {
+
+    export function drawBinary(column: number, decimal: number): void {
         if (decimal == 1) {
             led.plot(column, 4)
         } else if (decimal == 2) {
@@ -29,4 +30,3 @@ namespace Binary {
     }
     
 }
-
